@@ -1,0 +1,28 @@
+{
+  "name": "automation-challenge-unosquare",
+  "version": "1.0.0",
+  "description": "Automation framework for Unosquare challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanMerlo5/automation-challenge-unosquare.git"
+  },
+  "author": "Bryan Merlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanMerlo5/automation-challenge-unosquare/issues"
+  },
+  "homepage": "https://github.com/BryanMerlo5/automation-challenge-unosquare#readme",
+  "devDependencies": {
+    "chromedriver": "96.0.0",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^2.0.4",
+    "iedriver": "^3.150.1",
+    "nightwatch": "^1.7.12",
+    "selenium-server": "^3.141.59"
+  },
+  "keywords": []
+}
