@@ -1,29 +1,7 @@
 {
-    "url": "https://www.saucedemo.com/",
-    "user": {
-        "standard":"standard_user",
-        "locked":"locked_out_user",
-        "problem":"problem_user",
-        "performance":"performance_glitch_user",
-        "invalid": "stad_user",
-        "firstName": "Enrique",
-        "lastName": "Segoviano",
-        "postalCode": "64100"
-    },
-    "pass": "secret_sauce",
-    "sortProduct": {
-        "byNameAtoZ": "Name (A to Z)",
-        "byNameZtoA": "Name (Z to A)",
-        "byPriceLowToHigh": "Price (low to high)",
-        "byPriceHighToLow": "Price (high to low)"
-    },
-    "pricesLowToHigh": ["$7.99", "$9.99", "$15.99", "$15.99", "$29.99", "$49.99"],
-    "items": {
-        "firstItem": "Backpack",
-        "secondItem": "Bike Light",
-        "thirdItem": "Onesie"
-    },
+    "textToSearch": "Visual Studio",
     "title": {
+        "explore": "Explore",
         "visualStudioCartPage": "Shopping cart - Microsoft Store",
         "visualStudioDetailItemProductPage": "Buy Visual Studio Professional Subscription - Microsoft Store",
         "visualStudioExplorePage": "LP Secure Storage",

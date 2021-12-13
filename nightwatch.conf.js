@@ -54,7 +54,7 @@ module.exports = {
         acceptSslCerts: true,
         chromeOptions: {
           w3c: false,
-          args: ['headless', 'disable-gpu']
+          args: ['headless', 'disable-gpu', 'start-maximized']
         }
       }
     },
@@ -65,7 +65,7 @@ module.exports = {
         acceptSslCerts: true,
         chromeOptions: {
           w3c: false,
-          args: ['disable-gpu']
+          args: ['disable-gpu', 'start-maximized']
         }
       }
     },

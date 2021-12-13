@@ -10,6 +10,12 @@ bin-release/
 node_modules
 package-lock.json
 
+output/reports/utils/*.xml
+output/reports/pages/microsoft/*.xml
+output/reports/*.xml
+output/screenshots/*
+reports/*.xml
+
 # Executables
 *.swf
 *.air
