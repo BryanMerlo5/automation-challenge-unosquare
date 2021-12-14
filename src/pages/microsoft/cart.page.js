@@ -10,13 +10,10 @@ class CartPage {
     /**
      * define selectors using getter methods
      */
-    get lblPriceItems() {return ('[itemprop="price"]');}
-    get lnkFirstItemProduct() {return ('[data-id="coreui-productplacement-30l7ywa_dg7gmgf0dst3"]');}
-    get btnCloseSignMeUp() {return ('[class="close"]');}
-    get lblPriceItem() {return ('[class="pb-4 pr-lg-4"] p span');}
-    get btnAddToCart() {return ('[class="btn  btn-primary btn-block"]');}
     get ddlQuantity() {return ('select[aria-label="Visual Studio Professional Subscription  Quantity selection"]');}
-
+    get btnCheckout() { return ('div[class="greyBox--H5SnxNlC"] button[class="c-button f-primary f-flex"]');}
+    get quantityToSelect() { return ('[aria-label="Visual Studio Professional Subscription  Quantity selection"] option[value="20"]');}
+    get firstTotal() { return ('[class="group--O4G9xvBt"] [aria-live="polite"] [itemprop="price"]');}
     /**
      * a method to get the title of the cart page
      * e.g. returns the title

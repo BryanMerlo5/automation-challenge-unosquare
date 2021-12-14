@@ -14,7 +14,7 @@ class ShopPage {
      */
     get btnCloseUnitedStates() {return ('button[class="c-glyph glyph-cancel"]');}
     get lblPriceItems() {return ('span[itemprop="price"]');}
-    get lnkFirstItemProduct() {return ('[data-id="coreui-productplacement-30l7ywa_dg7gmgf0dst3"]');}
+    get lnkFirstItemProduct() {return ('[data-id="coreui-productplacement-30l7ywa_dg7gmgf0dst3"] a[data-aid="dg7gmgf0dt8b"]');}
     get btnCloseSignMeUp() {return ('[class="close"]');}
     get lblPriceItem() {return ('[class="pb-4 pr-lg-4"] p span');}
     get btnAddToCart() {return ('[class="btn  btn-primary btn-block"]');}
@@ -23,6 +23,7 @@ class ShopPage {
     get lblFirstPrice() { return ('#coreui-refinemenulist-nnq5m1e');}
     get lblSecondPrice() { return ('#coreui-refinemenulist-nnq5m1e');}
     get lblThirdPrice() { return ('#coreui-refinemenulist-nnq5m1e');}
+    get firstProduct() { return ('[data-id="coreui-productplacement-30l7ywa_dg7gmgf0dst3"]')}
 
 
     /**

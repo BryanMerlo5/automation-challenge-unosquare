@@ -6,28 +6,16 @@ const nightwatch = require('nightwatch/bin/runner.js');
 * main page object containing all methods, selectors and functionality
 * that is shared across all page objects
 */
-class HomePage {
+class ProductDetailPage {
     /**
      * define selectors using getter methods
      */
-    get lblTitle() { return ('.title');}
-    get lblOffice() { return ('#shellmenu_0');}
-    get lblWindows() { return ('#shellmenu_2');}
-    get lblSurface() { return ('#shellmenu_3');}
-    get lblXbox() { return ('#shellmenu_4');}
-    get lblDeals() { return ('#shellmenu_5');}
-    get lblSupport() { return ('#l1_support');}
-    get lblWindowOs() { return ('#c-shellmenu_56');}
-    get lblOptions() { return ('ul li span[style="display:none"]');}
-    get btnSearch() { return ('#search');}
-    get btnShop() { return ('[href="/en-us/search/shop?q=Visual Studio"]');}
-    get btnCloseUnitedStates() {return ('button[class="c-glyph glyph-cancel"]');}
-    get lblPriceItems() {return ('[itemprop="price"]');}
-    get lnkFirstItemProduct() {return ('[data-id="coreui-productplacement-30l7ywa_dg7gmgf0dst3"]');}
     get btnCloseSignMeUp() {return ('[class="close"]');}
     get lblPriceItem() {return ('[class="pb-4 pr-lg-4"] p span');}
-    get btnAddToCart() {return ('[class="btn  btn-primary btn-block"]');}
+    get btnAddToCart() {return ('div[class="buy-box-buy-buttons mb-3"] a[aria-label="Add to cart"]');}
     get ddlQuantity() {return ('select[aria-label="Visual Studio Professional Subscription  Quantity selection"]');}
+    get closeModal() { return ('button.close.geo-selector-localized-copy.preferred-redirect-cancel');}
+    get btnCloseSign() { return ('//*[@id="emailSup-modal"]/div/div/div[1]/button');}
 
     /**
      * a method to get the title of the cart page
@@ -45,4 +33,4 @@ class HomePage {
 
 }
 
-module.exports = new HomePage();
+module.exports = new ProductDetailPage();
